@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNgSecondDemo]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="testngTestsecond(failed)">
+    <parameter name="fname" value="Pavan"/>
+    <parameter name="lname" value="Kapadnis"/>
+    <parameter name="filepath" value="F:\FB_IMG_1592240997415.jpg"/>
+    <parameter name="dates" value="19/12/2004"/>
+    <parameter name="emid" value="5297"/>
+    <parameter name="age" value="28"/>
+    <classes>
+      <class name="com.testNGmaven.demo.TestngMaven">
+        <methods>
+          <include name="testOne" invocation-numbers="0"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.testNGmaven.demo.TestngMaven -->
+    </classes>
+  </test> <!-- testngTestsecond(failed) -->
+</suite> <!-- Failed suite [TestNgSecondDemo] -->

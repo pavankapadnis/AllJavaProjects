@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="TestNgSecondDemo">
+	
+	<test name="testngTestsecond">
+	<parameter name="fname" value="Pavan"></parameter>
+	<parameter name="lname" value="Kapadnis"></parameter>
+	<parameter name="age" value="28"></parameter>
+	<parameter name="dates" value="19/12/2004"></parameter>
+	<parameter name="emid" value="5297"></parameter>
+	<parameter name="filepath" value="F:\FB_IMG_1592240997415.jpg"></parameter>
+		<classes>
+			<class name="com.testNGmaven.demo.TestngMaven" />
+		</classes>
+	</test>
+	
+</suite>
